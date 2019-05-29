@@ -1,30 +1,31 @@
 {
-  "name": "sox-audio",
+  "name": "sox-buffer",
   "version": "0.3.0",
-  "description": "A NodeJS interface to SoX audio utilities",
+  "description": "A NodeJS interface to SoX audio utilities, with buffer support",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/psaylor/sox-audio.git"
+    "url": "https://github.com/tasinet/sox-buffer.git"
   },
   "keywords": [
     "sox",
     "audio",
     "util",
+    "buffer",
     "stream",
     "transcode",
     "concat",
     "concatenate"
   ],
-  "author": "Patricia Saylor <psaylor@mit.edu> (http://patriciasaylor.com/)",
+  "author": "Tasos Bitsios <tasos@bitsios.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/psaylor/sox-audio/issues"
+    "url": "https://github.com/tasinet/sox-buffer/issues"
   },
-  "homepage": "https://github.com/psaylor/sox-audio",
+  "homepage": "https://github.com/tasinet/sox-buffer",
   "dependencies": {
     "through": "^2.3.6"
   }
